@@ -1,3 +1,5 @@
 from django.contrib import admin
-
-# Register your models here.
+from homepage.models import Shoe, Manufacturer
+# Register your models here
+admin.site.register(Shoe)
+admin.site.register(Manufacturer)
